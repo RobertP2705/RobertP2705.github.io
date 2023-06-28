@@ -13,20 +13,26 @@
 .navbar{
     width:85%;
     margin:auto;
-    padding:35px 0;
+    padding:2% 0;
     display: flex;
     align-items: center;
     justify-content:space-between
 }
 .content{
-    margin-top:80px;
+    position:relative;
+    text-align:center;
+    font-family:Arial;
+    color : White;
+}
+.contentWork{
+    
     position:relative;
     text-align:center;
     font-family:Arial;
     color : White;
 }
 .chipotleLogo{
-    top:80px;
+    top:40%;
     position:absolute;
     float:left;
 }
@@ -34,11 +40,11 @@
     font-family: Arial;
     font-size:30px;
     font:Arial;
-    top:50px;
+    top:2.5%;
     position:relative;
     text-align:left;
-    margin-left: 300px;
-    margin-right: 300px
+    margin-left: 15%;
+    margin-right: 15%
 }
 .aboutMeText em{
     color:white;
@@ -63,18 +69,18 @@ h5{
 .schoolContent{
     font-size:30px;
     text-align:left;
-    margin-left:200px;
-    margin-right:100px;
+    margin-left:10%;
+    margin-right:5%;
     float:left;
 }
 .rightText{
-    margin-right:100px;
+    margin-right:5.6%;
     float:right;
 }
 .aboutMe{
     text-align:left;
-    padding: 40px;
-    margin: 100px;
+    padding: 4%;
+    margin: 3%;
 }
 @keyframes slide{
     0%{
@@ -85,25 +91,25 @@ h5{
     }
 }
 .coverImage{
-    margin-left: 300px;
+    margin-left: 10%;
     float:left;
     size:10%;
-    margin-right:50px;
+    margin-right:5%;
 }
 .marianos{
     font-family: Arial;
     font-size:30px;
     position:relative;
     text-align:left;
-    margin-left: 300px;
-    margin-right: 300px
+    margin-left: 16%;
+    margin-right: 16%
 
 }
 .marianosLogo{
     position:absolute;
     float:left;
-    top:60px;
-    left:-40px
+    top:40%;
+    left:-5%
 }
 h3{
     font-size: 40px;
@@ -122,7 +128,7 @@ h1{
 .navbar ul li{
     list-style:none;
     display:inline-block;
-    margin: 0 30px;
+    margin: 0 10px;
     position:relative;
 }
 
@@ -146,9 +152,9 @@ h1{
 
 .navbar ul li::after{
     content:'';
-    height:3px;
+    height:3%;
     width: 0;
-    bottom: -10px;
+    bottom: -5%;
     background: White;
     position: absolute;
     left:0;
