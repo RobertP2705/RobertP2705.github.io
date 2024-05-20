@@ -9,8 +9,7 @@
 
     background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url(images/backgroundImage.jpg);
     background-position:center;
-    background-size:cover;
-    background-attachment: fixed;
+    position: fixed;
 }
 .navbar{
     width:85%;
@@ -21,10 +20,7 @@
     justify-content:space-between
 }
 .content{
-    position:relative;
-    text-align:center;
-    font-family:Arial;
-    color : White;
+    
 }
 .contentWork{
     
