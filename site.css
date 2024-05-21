@@ -1,9 +1,10 @@
 .dialogue_box{
     position:fixed;
-    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
     top: 70%;
     width:80%;
     height:20%;
     border: 2px black solid;
-    border-radius:10 px;
+    border-radius:10px ;
 }
