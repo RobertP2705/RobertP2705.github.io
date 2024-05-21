@@ -8,11 +8,19 @@
 
 </head>
 <body>
-    <div class="dialogue_box">
-        
+    <div class="dialogue_box" id="dialogue">
+
     </div>
 </body>
 <script>
     dialogue = ["Uhm, Hi!","I've never seen you around here.. I think you'll really like it here.","click those pictures and i'll tell you more about it"]
+    runStartDialogue(dialogue[0])
+    function runStartDialogue(text){
+        dialogueBox = document.getElementById("dialogue")
+        for(i=0; i<text.length; i++){
+            dialogueBox.appendChild(document.createTextNode(text[i]));
+            sleep(100);
+        }
+    }
 </script>
 </html>
