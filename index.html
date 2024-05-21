@@ -18,9 +18,12 @@
     function runStartDialogue(text){
         dialogueBox = document.getElementById("dialogue")
         for(i=0; i<text.length; i++){
-            dialogueBox.appendChild(document.createTextNode(text[i]));
-            setTimeout(300)
+            setTimeout("addTextToDialogue("+text[i]+")", 300)
         }
+    }
+    function addTextToDialogue(text){
+        dialogueBox = document.getElementById("dialogue")
+        dialogueBox.appendChild(document.createTextNode(text))
     }
 </script>
 </html>
