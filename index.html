@@ -18,7 +18,7 @@
     function runStartDialogue(text){
         dialogueBox = document.getElementById("dialogue")
         for(i=0; i<text.length; i++){
-            setTimeout("addTextToDialogue("+JSON.stringify(text[i])+")", 300)
+            setTimeout(() => "addTextToDialogue("+JSON.stringify(text[i])+")", 1000)
         }
     }
     function addTextToDialogue(text){
