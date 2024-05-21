@@ -75,11 +75,6 @@ h5{
     margin-right:5.6%;
     float:right;
 }
-.aboutMe{
-    text-align:left;
-    padding: 4%;
-    margin: 3%;
-}
 @keyframes slide{
     0%{
         background-position-x: 0%;
